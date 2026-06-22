@@ -1,0 +1,11 @@
+# Sensitive config - contains DB password and Google OAuth secret
+includes/config.php
+
+# Uploaded user content (don't commit actual uploaded images)
+uploads/*
+!uploads/.gitkeep
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.log
